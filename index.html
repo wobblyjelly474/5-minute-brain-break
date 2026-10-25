@@ -924,12 +924,12 @@ const questions = [
   // EASY (12)
 
   {
-    category: "🌍 Geography",
+    category: "General Knowledge",
     emoji: "🌍",
-    question: "Which strait separates India and Sri Lanka?",
-    options: ["Malacca Strait", "Palk Strait", "Bering Strait", "Gibraltar Strait"],
-    answer: 1,
-    explanation: "The Palk Strait lies between Tamil Nadu in India and northern Sri Lanka."
+    question: "Which is the largest ocean on Earth?",
+    options: ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+    answer: 2,
+    explanation: "The Pacific Ocean is the largest and deepest ocean on Earth."
   },
   {
     category: "🔬 Science",
@@ -1022,21 +1022,21 @@ const questions = [
 
   // MODERATE (16)
 
-  {
-    category: "🌍 Geography",
-    emoji: "🌍",
-    question: "If you travel west across several time zones, what generally happens to the local clock time?",
-    options: ["It moves ahead", "It moves back", "It remains the same", "It changes only by season"],
-    answer: 1,
-    explanation: "Local clock time generally becomes earlier as you travel west across time zones."
+   {
+    category: "General Knowledge",
+    emoji: "📅",
+    question: "How many days are there in a leap year?",
+    options: ["364", "365", "366", "367"],
+    answer: 2,
+    explanation: "A leap year has 366 days, with an extra day added to February."
   },
-  {
-    category: "⚡ Physics",
-    emoji: "⚡",
-    question: "Two resistors of 4 Ω and 6 Ω are connected in series. What is their total resistance?",
-    options: ["2 Ω", "10 Ω", "24 Ω", "1.5 Ω"],
-    answer: 1,
-    explanation: "Resistances in series add together: 4 Ω + 6 Ω = 10 Ω."
+ {
+    category: "General Knowledge",
+    emoji: "📚",
+    question: "How many letters are there in the English alphabet?",
+    options: ["24", "25", "26", "28"],
+    answer: 2,
+    explanation: "The modern English alphabet contains 26 letters, from A to Z."
   },
   {
     category: "🔢 Logical Reasoning",
@@ -1046,21 +1046,21 @@ const questions = [
     answer: 2,
     explanation: "The differences are 5, 7, 9, and 11. The next difference is 13, giving 48."
   },
-  {
-    category: "🩸 Human Biology",
-    emoji: "🩸",
-    question: "Which antigens are present on red blood cells of a person with AB-positive blood?",
-    options: ["A only", "B only", "Neither A nor B", "A, B, and Rh(D)"],
-    answer: 3,
-    explanation: "AB-positive red blood cells carry A, B, and Rh(D) antigens."
+   {
+    category: "Basic Science",
+    emoji: "🪐",
+    question: "Which planet is known as the Red Planet?",
+    options: ["Venus", "Mars", "Jupiter", "Mercury"],
+    answer: 1,
+    explanation: "Mars appears reddish because its surface contains iron oxide, commonly known as rust."
   },
   {
-    category: "⚗️ Chemistry",
-    emoji: "⚗️",
-    question: "A solution has a pH of 3. How is it classified?",
-    options: ["Acidic", "Neutral", "Alkaline", "Always harmless"],
-    answer: 0,
-    explanation: "A pH below 7 indicates an acidic solution."
+    category: "Basic Science",
+    emoji: "🌡️",
+    question: "At approximately what temperature does water boil at sea level?",
+    options: ["50°C", "75°C", "100°C", "150°C"],
+    answer: 2,
+    explanation: "Water boils at approximately 100°C at standard atmospheric pressure."
   },
   {
     category: "🌙 Space",
@@ -1126,12 +1126,17 @@ const questions = [
     explanation: "₹800 is 80% of the original price. Dividing 800 by 0.8 gives ₹1,000."
   },
   {
-    category: "⚡ Physics",
-    emoji: "⚡",
-    question: "If an object's speed doubles, what happens to its kinetic energy, assuming its mass stays constant?",
-    options: ["It doubles", "It triples", "It becomes four times as large", "It remains unchanged"],
-    answer: 2,
-    explanation: "Kinetic energy is proportional to the square of speed, so doubling speed multiplies it by four."
+    category: "World History",
+    emoji: "🌏",
+    question: "Which three countries were the principal Axis Powers during World War II?",
+    options: [
+      "Britain, France and the USA",
+      "Germany, Italy and Japan",
+      "Russia, China and India",
+      "Spain, Portugal and Greece"
+    ],
+    answer: 1,
+    explanation: "Germany, Italy and Japan were the principal Axis Powers during World War II."
   },
   {
     category: "🌍 Geography",
@@ -1142,12 +1147,17 @@ const questions = [
     explanation: "The Equator lies at 0° latitude and divides Earth into two hemispheres."
   },
   {
-    category: "🧬 Genetics",
-    emoji: "🧬",
-    question: "In a typical human diploid cell, how many copies of an autosomal gene are present?",
-    options: ["One", "Two", "Four", "Twenty-three"],
+    category: "Indian History",
+    emoji: "🇮🇳",
+    question: "Who was the last Viceroy of British India?",
+    options: [
+      "Lord Curzon",
+      "Lord Mountbatten",
+      "Lord Wavell",
+      "Lord Dalhousie"
+    ],
     answer: 1,
-    explanation: "Most autosomal genes are present in two copies in typical diploid cells, one inherited from each biological parent."
+    explanation: "Lord Mountbatten was the last Viceroy of British India before independence in August 1947."
   },
   {
     category: "🔬 Scientific Thinking",
@@ -1163,17 +1173,17 @@ const questions = [
     explanation: "An observed association alone cannot establish cause and effect; other factors may influence both variables."
   },
   {
-    category: "🌐 Technology",
-    emoji: "🌐",
-    question: "A website works on a laptop but is difficult to use on a phone. What should be checked first?",
+    category: "Indian History",
+    emoji: "☸️",
+    question: "Which Indian emperor is traditionally associated with embracing Buddhism after the Kalinga War?",
     options: [
-      "Responsive layout and viewport settings",
-      "The laptop's battery capacity",
-      "The phone's speaker volume",
-      "The website's file names only"
+      "Akbar",
+      "Ashoka",
+      "Chandragupta Maurya",
+      "Samudragupta"
     ],
-    answer: 0,
-    explanation: "Responsive design and viewport settings help a website adapt to different screen sizes."
+    answer: 1,
+    explanation: "Emperor Ashoka is traditionally associated with turning towards Buddhism after the devastating Kalinga War."
   },
 
   // SLIGHTLY TRICKY (12)
@@ -1216,41 +1226,46 @@ const questions = [
     explanation: "If Friday is two days away, tomorrow is Thursday and today is Wednesday."
   },
   {
-    category: "🌍 Geography",
-    emoji: "🌍",
-    question: "Two places lie on the same longitude but at different latitudes. Which statement about their local solar noon is most accurate?",
-    options: [
-      "It must occur at exactly the same clock time everywhere",
-      "It always occurs earlier at the place farther north",
-      "It depends only on the altitude of the places",
-      "Their local solar noon is generally similar, but the clock time can differ because of time-zone boundaries and local time conventions"
-    ],
-    answer: 3,
-    explanation: "Longitude largely determines local solar time. Official clock time can differ because time zones and civil-time rules do not follow longitude perfectly."
-  },
-  {
-    category: "📊 Mathematics",
-    emoji: "📊",
-    question: "A price increases by 20% and then decreases by 20%. Compared with the original price, the final price is:",
-    options: ["Unchanged", "4% lower", "4% higher", "8% lower"],
+    category: "Geography",
+    emoji: "🦘",
+    question: "Which country is also a continent?",
+    options: ["Greenland", "Australia", "Madagascar", "Iceland"],
     answer: 1,
-    explanation: "Starting at 100, a 20% increase gives 120. A 20% decrease gives 96, which is 4% below the original."
+    explanation: "Australia is both a country and the name commonly used for the continent on which it lies."
   },
   {
-    category: "🏭 Logical Reasoning",
-    emoji: "🏭",
-    question: "If 100 machines make 100 items in 5 minutes, how long would 200 identical machines take to make 200 items at the same rate?",
-    options: ["2.5 minutes", "5 minutes", "10 minutes", "20 minutes"],
-    answer: 1,
-    explanation: "Each machine makes one item in 5 minutes, so 200 machines can make 200 items in 5 minutes."
-  },
-  {
-    category: "⚗️ Physics",
-    emoji: "⚗️",
-    question: "A fixed amount of gas is compressed to half its volume while its temperature remains constant. What happens to its pressure, ideally?",
-    options: ["It halves", "It stays the same", "It doubles", "It becomes zero"],
+    category: "Geography",
+    emoji: "🌊",
+    question: "Which river flows through Egypt and was central to its ancient civilisation?",
+    options: ["Amazon", "Danube", "Nile", "Yangtze"],
     answer: 2,
-    explanation: "Boyle's law states that pressure is inversely proportional to volume at constant temperature."
+    explanation: "The Nile provided water and fertile land that supported ancient Egyptian civilisation."
+  },
+  {
+    category: "Nature",
+    emoji: "🐪",
+    question: "What is the main function of a camel's hump?",
+    options: [
+      "To store water",
+      "To store fat",
+      "To regulate its breathing",
+      "To keep its ears warm"
+    ],
+    answer: 1,
+    explanation: "A camel's hump stores fat, which can provide energy when food is scarce."
+  },
+  {
+    category: "Culture",
+    emoji: "📖",
+    question: "Who wrote the Indian national anthem, Jana Gana Mana?",
+    options: [
+      "Bankim Chandra Chatterjee",
+      "Rabindranath Tagore",
+      "Sarojini Naidu",
+      "Munshi Premchand"
+    ],
+    answer: 1,
+    explanation: "Rabindranath Tagore wrote Jana Gana Mana, which was adopted as India's national anthem in 1950."
   },
   {
     category: "🌱 Environment",
@@ -1274,17 +1289,12 @@ const questions = [
     explanation: "The cerebellum helps coordinate movement, balance, and motor learning."
   },
   {
-    category: "🌌 Space",
-    emoji: "🌌",
-    question: "Why do astronauts in orbit appear to float inside their spacecraft?",
-    options: [
-      "There is no gravity in space",
-      "They and the spacecraft are continuously falling around Earth together",
-      "The spacecraft cancels Earth's gravity",
-      "Their mass temporarily becomes zero"
-    ],
-    answer: 1,
-    explanation: "Astronauts experience apparent weightlessness because they and their spacecraft are in continuous free fall around Earth."
+    category: "Geography",
+    emoji: "🌊",
+    question: "Which river flows through Egypt and was central to its ancient civilisation?",
+    options: ["Amazon", "Danube", "Nile", "Yangtze"],
+    answer: 2,
+    explanation: "The Nile provided water and fertile land that supported ancient Egyptian civilisation."
   },
   {
     category: "🧩 Logical Reasoning",
